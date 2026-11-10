@@ -1,0 +1,88 @@
+<!-- Name: Muhammad Abdullah | Roll Number: 26i-3034 | Section: Section A -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAST Café & Dhaba | Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">☕ FAST Café</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Food & Ambience Gallery</h1>
+    <p>Click on any item to view details and price!</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-card" onclick="showImageDetails('Special Cappuccino', '450')">
+        <img src="images/cappuccino.jpg" alt="Special Cappuccino">
+        <div class="caption">
+          <h3>Special Cappuccino</h3>
+          <p>Rs. 450</p>
+        </div>
+      </div>
+
+      <div class="gallery-card" onclick="showImageDetails('Karak Dhaba Chai', '120')">
+        <img src="images/karak_chai.jpg" alt="Karak Dhaba Chai">
+        <div class="caption">
+          <h3>Karak Dhaba Chai</h3>
+          <p>Rs. 120</p>
+        </div>
+      </div>
+
+      <div class="gallery-card" onclick="showImageDetails('Triple Layer Club Sandwich', '650')">
+        <img src="images/club_sandwich.jpg" alt="Club Sandwich">
+        <div class="caption">
+          <h3>Triple Layer Club Sandwich</h3>
+          <p>Rs. 650</p>
+        </div>
+      </div>
+
+      <div class="gallery-card" onclick="showImageDetails('Warm Fudgy Brownie', '350')">
+        <img src="images/brownie.jpg" alt="Warm Brownie">
+        <div class="caption">
+          <h3>Warm Fudgy Brownie</h3>
+          <p>Rs. 350</p>
+        </div>
+      </div>
+
+      <div class="gallery-card" onclick="showImageDetails('Cheese Loaded Fries', '400')">
+        <img src="images/loaded_fries.jpg" alt="Cheese Loaded Fries">
+        <div class="caption">
+          <h3>Cheese Loaded Fries</h3>
+          <p>Rs. 400</p>
+        </div>
+      </div>
+
+      <div class="gallery-card" onclick="showImageDetails('Desi Aloo Paratha', '220')">
+        <img src="images/aloo_paratha.jpg" alt="Desi Aloo Paratha">
+        <div class="caption">
+          <h3>Desi Aloo Paratha</h3>
+          <p>Rs. 220</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>FAST-NUCES Islamabad | A-Block Student Center</p>
+    <p>&copy; 2026 Muhammad Abdullah (26i-3034) - ICT Lab Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

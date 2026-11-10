@@ -1,0 +1,81 @@
+<!-- Name: Muhammad Abdullah | Roll Number: 26i-3034 | Section: Section A -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAST Café & Dhaba | Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">☕ FAST Café</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact & Feedback</h1>
+    <p>Have questions or feedback? Reach out to us below!</p>
+
+    <div class="form-container">
+      <form onsubmit="return handleFormSubmit(event)">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" required placeholder="Muhammad Abdullah">
+        </div>
+
+        <div class="form-group">
+          <label for="roll">Roll Number (Optional):</label>
+          <input type="text" id="roll" placeholder="26i-3034">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" required placeholder="i263034@isb.nu.edu.pk">
+        </div>
+
+        <div class="form-group">
+          <label for="rating">Rate Our Food & Service:</label>
+          <select id="rating">
+            <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+            <option value="4">⭐⭐⭐⭐ Good</option>
+            <option value="3">⭐⭐⭐ Average</option>
+            <option value="2">⭐⭐ Needs Improvement</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message / Feedback:</label>
+          <textarea id="message" rows="4" required placeholder="Type your message here..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%;">Submit Message</button>
+      </form>
+    </div>
+
+    <section class="about-section">
+      <h2>Visit Us On Campus</h2>
+      <p><strong>Location:</strong> FAST-NUCES Islamabad, A-Block Student Center</p>
+      <p><strong>Timings:</strong> 10:00 AM - 11:00 PM (Monday to Saturday)</p>
+      <p><strong>Phone:</strong> +92 51 111 128 128</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>FAST-NUCES Islamabad | A-Block Student Center</p>
+    <p>&copy; 2026 Muhammad Abdullah (26i-3034) - ICT Lab Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
