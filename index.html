@@ -1,0 +1,148 @@
+<!-- Name: Muhammad Abdullah Roll Number: 26i-3034 Section: Section A -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cafe Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: #f5e6d3;
+  color: #3b2a1e;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: #6f4e37;
+  font-size: 32px;
+}
+
+h2 {
+  background-color: #6f4e37;
+  color: #ffd9a0;
+  padding: 15px;
+  margin: 0 0 15px 0;
+}
+
+img {
+  height: 300px;
+  border: 4px solid #6f4e37;
+}
+
+.box {
+  display: inline-block;
+  width: 25%;
+  border: 2px solid #6f4e37;
+  padding: 10px;
+}
+
+.box:nth-of-type(1) {
+  background-color: #e8c9a5;
+}
+
+.box:nth-of-type(2) {
+  background-color: #cfe3c8;
+}
+
+.box:nth-of-type(3) {
+  background-color: #f7cfc4;
+}
+
+table {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th {
+  background-color: #4a6b4f;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #6f4e37;
+  padding: 8px;
+}
+
+tr:nth-child(even) td {
+  background-color: #fbeedd;
+}
+
+button {
+  background-color: #d9822b;
+  color: white;
+  font-size: 18px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #4a6b4f;
+  color: white;
+  padding: 12px;
+  margin-top: 30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Cafe</h2>
+
+<img src="images/coffee.png" alt="Cup of coffee">
+<h1>Menu</h1>
+
+<div class="box">
+  <h3>Coffee</h3>
+  <p>Hot and cold drinks</p>
+</div>
+<div class="box">
+  <h3>Snacks</h3>
+  <p>Sandwiches and fries</p>
+</div>
+<div class="box">
+  <h3>Desserts</h3>
+  <p>Cakes and brownies</p>
+</div>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Description</th>
+    <th>Price (Rs.)</th>
+  </tr>
+  <tr>
+    <td>Cappuccino</td>
+    <td>Espresso with steamed milk</td>
+    <td>450</td>
+  </tr>
+  <tr>
+    <td>Club Sandwich</td>
+    <td>Chicken, lettuce and fries</td>
+    <td>650</td>
+  </tr>
+  <tr>
+    <td>Brownie</td>
+    <td>Warm chocolate</td>
+    <td>350</td>
+  </tr>
+</table>
+
+<button onclick="orderNow()">Order</button>
+
+<p class="footer">Islamabad | Open 10am to 11pm</p>
+
+<script>
+  function orderNow() {
+    window.alert("Thank you, your order is confirmed!");
+  }
+</script>
+
+</body>
+</html>
