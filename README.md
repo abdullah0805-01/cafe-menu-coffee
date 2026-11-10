@@ -1,30 +1,31 @@
-# FAST Café & Dhaba - ICT Lab 12 Complete Project (Updated with Individual Images)
+# FAST Café & Dhaba Website
 
-**Student:** Muhammad Abdullah  
+**Student Name:** Muhammad Abdullah  
 **Roll Number:** 26i-3034  
 **Section:** Section A  
 **University:** FAST-NUCES Islamabad  
 
 ---
 
-## 📁 Repository Folder Structure
+## 📌 Project Overview
+**Theme:** Campus Café / Dhaba Menu  
+**Description:** A responsive, multi-page web application built for FAST-NUCES Islamabad students with an interactive menu, photo gallery, and online contact form.
 
-```text
-fast_cafe_lab12_all_files/
-│
-├── index.html        # Home / Landing Page
-├── menu.html         # Interactive Menu Page with tables & category buttons
-├── gallery.html      # Responsive Photo Grid with 6 distinct item images
-├── contact.html      # Contact and Feedback form page
-├── style.css         # Master stylesheet
-├── script.js        # JavaScript interactivity
-├── prompts.docx      # Vibe coding prompt log documenting AI interactions
-├── README.md         # Instructions and commit history guide
-└── images/           # Images directory containing distinct food item photos:
-    ├── cappuccino.jpg
-    ├── karak_chai.jpg
-    ├── club_sandwich.jpg
-    ├── brownie.jpg
-    ├── loaded_fries.jpg
-    └── aloo_paratha.jpg
-```
+---
+
+## 📄 Website Pages
+* `index.html` — Home landing page featuring top categories, quick order call-to-action, and campus dhaba details.
+* `menu.html` — Categorized food and beverage tables with custom order buttons.
+* `gallery.html` — Responsive visual grid featuring café specials with interactive detail popups.
+* `contact.html` — Feedback form and campus center location details.
+
+---
+
+## 🛠️ Tools Used
+* **AI Tool:** Gemini (Vibe Coding Assistant)
+* **Core Technologies:** HTML5, CSS3, JavaScript (ES6), Git & GitHub Pages
+
+---
+
+## 🌐 Live Website Link
+👉 **[Click Here to Visit Live FAST Café Website](https://abdullah0805-01.github.io/cafe-menu-coffee/)**
